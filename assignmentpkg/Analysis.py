@@ -6,6 +6,7 @@ import yaml
 
 class Analysis():
     def __init__(self, analysis_config:str):
+        print("Inside init")
         CONFIG_PATHS = ['configs/system_config.yml', 'configs/user_config.yml']
 
         # add the analysis config to the list of paths to load
